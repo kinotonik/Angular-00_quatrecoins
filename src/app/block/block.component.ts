@@ -6,6 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./block.component.css"]
 })
 export class BlockComponent {
-  cube = 'A B C';
+  cube = ['A B C'];
+  divClasses = ['top-left', 'top-right', 'bottom-left', 'bottom-right'];
 }
 

@@ -1,4 +1,10 @@
-<div class="top-left">{{cube}}</div>
+<!--<div class="top-left">{{cube}}</div>
 <div class="top-right">{{cube}}</div>
 <div class="bottom-left">{{cube}}</div>
 <div class="bottom-right">{{cube}}</div>
+<div *ngFor="let divClass of divClasses" [ngClass]="divClass">{{divClass}}</div>-->
+
+
+<div *ngFor="let divClass of divClasses" [ngClass]="divClass">
+  <div *ngFor="let letter of cube">{{letter}}</div>
+</div>
